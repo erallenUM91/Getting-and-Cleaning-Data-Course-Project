@@ -1,5 +1,6 @@
 Codebook
 ================
+Eric Allen
 
 Table of Contents
 -----------------
@@ -28,16 +29,14 @@ Feature Selection/Description of Original Measurements
 
 The raw data used in this database comes from the accelerometer and gyroscope 3-axial raw signals. These time domain signals were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz.
 
-Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals. Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm.
-
-Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing frequency domain signals.
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals. Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm. Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing frequency domain signals.
 
 Data Summarization/Tidy Data
 ----------------------------
 
 The mean and standard deviations of each of the feature/domain calculations were extracted and then, in turn, the means of those summary measures were calculated for each subject/activity combination and included in the data table provided.
 
-Note:
+Note: meanFreq features (the weighted average of the frequency components in order to obtain a mean frequency) were not extracted in to the summary data as they were not considered as included in the requested mean() and std() items
 
 Units
 -----
