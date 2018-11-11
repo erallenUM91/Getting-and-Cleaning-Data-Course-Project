@@ -96,7 +96,7 @@ The variable names are made of the following tokens to indicate the nature of th
 </tr>
 <tr class="odd">
 <td>MeanOf</td>
-<td>indicates the mean of the measurement for each Participant+Actvity combination (note the mean of either the standard deviations or means of the initial measurements)</td>
+<td>indicates the mean of the measurement for each Participant+Actvity combination (note: all measures in the tidy data table are the mean of either the standard deviations or means of the initial measurements)</td>
 </tr>
 <tr class="even">
 <td>Std</td>
@@ -478,7 +478,7 @@ Sourcing/Citations
 
 Information in this data was sourced from the following:
 
-\[Link to original study information/raw data.\] (<http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones>)
+[Link to original study information/raw data.](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 Human Activity Recognition Using Smartphones Dataset Version 1.0
 
